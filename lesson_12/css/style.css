@@ -1,0 +1,58 @@
+.header {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 125px;
+  margin-bottom: 85px;
+}
+.header span{
+  display: block;
+}
+.form-header {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.form {
+  border: 5px solid #472cc3;
+  text-align: center;
+  padding: 30px 20px;
+}
+.video {
+  margin-bottom: 10px;
+}
+input {
+  width: 250px;
+  border: 1px solid #333;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form-btn{
+  padding: 20px 40px;
+  background-color: #472cc3;
+  border: none;
+  width: 250px;
+  color: white;
+  text-align: center;
+}
+.section-header {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 80px;
+}
+.feature {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.feature p{
+  font-weight: 700;
+}
+.main-btn {
+  text-align: center;
+}
+.feature-img {
+  text-align: center;
+  margin-bottom: 50px;
+}
