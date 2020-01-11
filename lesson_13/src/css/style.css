@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(235, 244, 244);
+  font-family: Arial, sans-serif;
+}
+.form {
+  width: 320px;
+  background-color: #fff;
+  padding: 0px 30px;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin: 10% auto;
+}
+.create {
+  background-color: #01b3b3;
+  position: absolute;
+  margin-top: -3px;
+  text-transform: uppercase;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.create p {
+  padding: 8px;
+  margin: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.email {
+  padding-top: 70px;
+}
+p {
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+input{
+  width: 260px;
+  background-color: rgb(235, 244, 244);
+  border: none;
+  height: 30px;
+  border: 1px solid #cfdede;
+  padding-left: 5px;
+  font-size: 12px;
+  font-style: italic;
+}
+.form-btn {
+  background-color: #01b4b4;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  width: 260px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 34px 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 4px;
+  background: -moz-linear-gradient(top left,#01b4b4,#01c5c5);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2),inset 0px 1px 2px 0px rgba(255, 255, 255, 0.004);
+}
+.star {
+  color: #01b3b3;
+}
