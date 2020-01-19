@@ -11,3 +11,4 @@
 [Урок 13](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_13/src) - верстка формы perfect pixel  
 [Урок 14](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_14) - верстка шапки  
 [Урок 14.1](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_14.1) - подключение шрифтов  
+[Урок 15](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_15) - верстка первого экрана добавление фона  
