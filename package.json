@@ -1,0 +1,25 @@
+{
+  "name": "sergeyfwd.github.io",
+  "version": "1.0.0",
+  "description": "Мои домашние задания   \r [Урок 4](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_4) - html книжка  \r [Урок 5](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_5) - html книжка + css  \r [Урок 6](https://codepen.io/Sergibus57/pen/PooQoZe) - позиционирование  \r [Урок 7](https://codepen.io/Sergibus57/pen/vYYdBoZ) - полностью сверстанный сайт html + css  \r [Урок 8](https://yadi.sk/d/15jef15T4Apyzw) - знакомства с сеткой Bootstrap  \r [Урок 9](https://yadi.sk/d/-8Xia0t-vfolEA) - сайт из урока №7 но с использованием bootstrap  \r [Урок 10](https://fs02.getcourse.ru/fileservice/file/download/a/12250/sc/101/h/8671ae8b3c73148ea7df0d07215880d4.less) - знакомства с less  \r [Урок 12](https://sergeyfwd.github.io/) - работа с репозиторием на GitHub  \r [Урок 13](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_13/src) - верстка формы perfect pixel  \r [Урок 14](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_14) - верстка шапки  \r [Урок 14.1](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_14.1) - подключение шрифтов  \r [Урок 15](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_15) - верстка первого экрана добавление фона  \r [Урок 15](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/lesson_15.1) - Эффекты при наведении  \r [Урок 15](https://github.com/SergeyFWD/sergeyfwd.github.io/tree/master/delivery) - Эффекты при наведении",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyFWD/sergeyfwd.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyFWD/sergeyfwd.github.io/issues"
+  },
+  "homepage": "https://github.com/SergeyFWD/sergeyfwd.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
