@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000915;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  background-image: url(../img/topback.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.top__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  width: 789px;
+}
+.top__content {
+  padding-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.top__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 481px;
+  margin-bottom: 12px;
+}
+.top__title-bold {
+  font-weight: 700;
+}
+.top__button {
+  padding: 13px 74px;
+  background: #9C0332;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-style: normal;
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  transition: background 0.5s;
+}
+.top__button:hover {
+  background: #EB443F;
+}
+
+.games {
+  display: flex;
+  padding: 128px 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+.games__menu {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  color: #FFFFFF;
+  padding: 32px;
+  min-height: 300px;
+  width: 378px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  align-items: flex-end;
+}
+.games__menu:hover {
+  border: 3px solid #44D2FF;
+}
+.games__menu__item_1 {
+  background-image: url(../img/game_1.jpg);
+}
+.games__menu__item_2 {
+  background-image: url(../img/game_2.jpg);
+}
+.games__menu__item_3 {
+  background-image: url(../img/game_3.jpg);
+}
+
+.seasons {
+  margin-top: 233px;
+  margin-bottom: 233px;
+  display: flex;
+  justify-content: space-between;
+}
+.seasons__game {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  margin-top: 49px;
+}
+.seasons__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.seasons__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 584px;
+}
+.seasons__button {
+  padding-right: 90px;
+}
+.seasons__art {
+  display: flex;
+}
+
+.remember {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 1230px) {
+  .top__content {
+    align-items: center;
+    padding-top: 25%;
+  }
+  .top__heading {
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    justify-content: center;
+    width: 343px;
+    text-align: center;
+  }
+  .top__title {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .seasons {
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 767px) {
+  .top__content {
+    align-items: center;
+    padding-top: 25%;
+  }
+  .top__heading {
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    justify-content: center;
+    width: 343px;
+    text-align: center;
+  }
+  .top__title {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .games__menu {
+    width: 343px;
+  }
+  .seasons {
+    margin-bottom: 85px;
+    margin-top: 51px;
+  }
+  .seasons__game {
+    align-items: center;
+  }
+  .seasons__title {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .seasons__button {
+    display: flex;
+  }
+  .seasons__art {
+    width: 344px;
+  }
+  .seasons__heading {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 343px) {
+  .top__content {
+    padding-top: 70%;
+  }
+  .games__menu {
+    width: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */
