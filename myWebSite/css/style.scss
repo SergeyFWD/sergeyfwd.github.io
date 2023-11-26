@@ -1,0 +1,174 @@
+@import "nullstyle.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif;
+  color: #2e2e2e;
+}
+
+a {
+  color: #2e2e2e;
+}
+
+.container {
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.active {
+  display: flex !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  &__link {
+    padding: 1rem;
+    &:hover {
+      padding: 1rem;
+      background-color: #d9ecf8;
+      color: #076d92;
+    }
+  }
+}
+
+.header {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  &__wrapper {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  &__title a {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #3a4145;
+    &:hover {
+      color: #076d92;
+    }
+  }
+  &__avatar {
+    width: 120px;
+    height: 120px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.5rem;
+  }
+  &__subtitle {
+    padding-top: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    span {
+      color: #076d92;
+    }
+  }
+}
+
+.about {
+  margin-top: 5rem;
+  &__wrapper {
+    display: flex;
+    gap: 4rem;
+  }
+  &__title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &__subtitle {
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    a {
+      color: #076d92;
+      font-weight: 700;
+    }
+  }
+
+  &__social {
+    gap: 1.3rem;
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    a {
+      &:hover {
+        color: #076d92;
+      }
+    }
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.portfolio {
+  margin-top: 5rem;
+  &__title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &__preview {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+  }
+  &__musicApp {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/application/myMusicBlack.jpg);
+    background-size: cover;
+    border-radius: 0.4rem;
+
+    transition: background-image 1s;
+    &:hover {
+      // border: 1px solid rgba(0, 0, 0, 0.125);
+      background-image: url(../img/application/myMusicWhite.jpg);
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  &__copyright {
+    font-size: 1.3rem;
+    color: #aaa;
+  }
+}
+
+@import "mobile";
