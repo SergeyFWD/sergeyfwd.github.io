@@ -148,21 +148,47 @@ a {
     display: flex;
     width: 1000px;
     height: 350px;
+
+    &:hover .portfolio__block {
+      background-color: black;
+      color: white;
+    }
   }
-  &__musicApp {
+  &__app {
     display: flex;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url(../img/application/myMusicBlack.jpg);
     background-size: cover;
     border-radius: 0.4rem;
     margin-bottom: 2rem;
-    transition: background-image 1s;
+    transition: background-image 0.2s;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
 
-    &:hover {
-      background-image: url(../img/application/myMusicWhite.jpg);
-    }
+  &__block {
+    background-color: #fff;
+    padding: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    transition: background-color 1s;
+  }
+}
+
+.music {
+  background-image: url(../img/application/myMusicBlack.jpg);
+  &:hover {
+    background-image: url(../img/application/myMusicWhite.jpg);
+  }
+}
+
+.delivery {
+  background-image: url(../img/application/delivery.jpg);
+  &:hover {
+    background-image: url(../img/application/deliveryRest.jpg);
   }
 }
 
