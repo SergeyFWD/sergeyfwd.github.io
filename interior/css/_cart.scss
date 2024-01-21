@@ -1,0 +1,214 @@
+  @keyframes shake-bottom {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    10% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    80% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    90% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  
+
+.shake-bottom {
+	animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) 3s both;
+}
+
+.top-cart {
+    height: 400px;
+    background-image: url(../img/cart/cart-logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading-big {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 127px;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+
+    &__name-box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 14px;
+    }
+
+    &__item {
+        border-top: 0.5px solid #CACDD8;
+        padding-top: 25px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__info {
+        width: 276px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #888888;
+    }
+
+    &__heading {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__left {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__form {
+        font-family: 'Montserrat';
+        background: #F7F6F6;
+        border-radius: 20px;
+        height: 556px;
+        display: flex;
+        grid-column: span 4;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content {
+        grid-column: span 8;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    &__input {
+        width: 71px;
+        height: 51px;
+        background: #F7F6F6;
+        border-radius: 6px;
+        border: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 210%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        outline: none;
+
+        &-form{
+            border: none;
+            background: transparent;
+            font-style: normal;
+            font-weight: 400;
+            margin-bottom: 44px;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            border-bottom: 1px solid #CACDD8;
+            width: 288px;
+            outline: none;
+            &::placeholder {
+                color: #000000;
+            }
+        }
+    }
+
+    &__link-box a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 210%;
+        text-decoration: underline;
+        color: #000000;
+        padding-right: 30px;
+        
+    }
+
+    &__title {
+        display: flex;
+        margin-top: 42px;
+        margin-bottom: 35px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    &__amount {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+
+        &-big {
+            font-weight: 600;
+        }
+    }
+
+    &__btn {
+        color: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        width: 290px;
+        height: 41px;
+        border: 1px solid #040404;
+        border-radius: 20px;
+        background: transparent;
+        margin-bottom: 148px;
+        margin-top: 18px;
+
+        &-small {
+            width: 200px;
+            height: 37px;
+            margin-bottom: 0;
+        }
+    }
+
+    &__btn:hover {
+        background: #000000;
+        color: #FFFFFF;
+    }
+}

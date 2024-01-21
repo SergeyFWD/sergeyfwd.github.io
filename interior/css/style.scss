@@ -1,0 +1,362 @@
+@import 'vars';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 735px;
+    background-image: url(../img/topback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: $color-text;
+        margin-bottom: 16px;
+    }
+}
+
+.header {
+    height: 77px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+    &__input {
+        width: 288px;
+        height: 41px;
+        border: 1px solid $color-text;
+        box-sizing: border-box;
+        border-radius: 20px;
+        background-color: transparent;
+        outline: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $color-text;
+        padding: 0px 35px;
+        &::placeholder {
+            color: $color-text;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    &__link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $color-text;
+    }
+    &-mob {
+        display: none;
+    }
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: $color-text;
+    margin-top: 64px;
+    margin-bottom: 16px;
+    max-width: 792px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: $color-text;
+}
+
+.link__top:hover {
+    color: #000000;
+}
+
+.for-box {
+    padding-top: 64px;
+}
+
+.for {
+    margin-top: 32px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.for__item {
+    height: 415px;
+    grid-column: span 4;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    color: $color-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    &:hover {
+        transform: scale(1.05);
+    }
+
+}
+
+.for__item_big {
+    grid-column: span 6;
+}
+
+.for__item_1 {
+    background-image: url(../img/for-1.jpg);
+}
+
+
+.for__item_2 {
+    background-image: url(../img/for-2.jpg);
+}
+
+.for__item_3 {
+    background-image: url(../img/for-3.jpg);
+}
+
+.for__item_4 {
+    background-image: url(../img/for-4.jpg);
+}
+
+.for__item_5 {
+    background-image: url(../img/for-5.jpg);
+}
+
+.product {
+    width: 378px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.product__img {
+    width: 100%;
+}
+
+.product-box {
+    padding-top: 64px;
+}
+
+.product-content {
+    margin-top: 32px;
+    display: flex;
+    column-gap: 32px;
+    row-gap: 56px;
+    flex-wrap: wrap;
+}
+
+.product__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #050505;
+}
+
+.product__price_sale {
+    color: #888888;
+}
+
+.product__box-price {
+    display: flex;
+    gap: 32px;
+}
+
+.product__name {
+    margin-top: 10px;
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.product__text {
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.link__bottom {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 64px;
+    display: flex;
+}
+
+.link__bottom-cart {
+    margin-top: 33px;
+}
+
+.link__bottom:hover {
+    color: #888888;
+}
+
+.footer {
+    background: #F7F6F6;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer__logo {
+    display: flex;
+}
+
+.footer__content {
+    margin-top: 32px;
+    width: 792px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__info {
+    display: flex;
+    gap: 129px;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__icons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.footer__icons-color svg:hover {
+    fill: #000;
+} 
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__input {
+    width: 275px;
+    height: 46px;
+    background: $color-text;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding: 0px 24px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+
+.footer__input::placeholder {
+    color: #C4C4C4;
+}
+
+.footer__button {
+    box-sizing: border-box;
+    width: 275px;
+    height: 46px;    
+    background: rgba(222, 215, 215, 0.41);
+    border: 1px solid $color-text;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    transition: all 0.5s;
+}
+
+.footer__button:hover {
+    background-color: #000000;
+    color: $color-text;
+}
+
+.footer__text {
+    margin-bottom: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.footer__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+}
+
+.footer__link:hover {
+    color: #000000;
+}
+
+@import 'cart';
+@import 'catalog';
+@import 'media';
+@import 'mobile'
