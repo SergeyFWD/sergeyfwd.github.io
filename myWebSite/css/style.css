@@ -200,6 +200,9 @@ a {
   color: #076d92;
   font-weight: 700;
 }
+.about__list {
+  font-weight: 700;
+}
 .about__social {
   gap: 1.3rem;
   font-size: 1.3rem;
@@ -274,6 +277,34 @@ a {
   background-image: url(../img/application/deliveryRest.jpg);
 }
 
+.delivery {
+  background-image: url(../img/application/delivery.jpg);
+}
+.delivery:hover {
+  background-image: url(../img/application/deliveryRest.jpg);
+}
+
+.interior {
+  background-image: url(../img/application/interiorMain.jpg);
+}
+.interior:hover {
+  background-image: url(../img/application/interior.jpg);
+}
+
+.animation {
+  background-image: url(../img/application/animation.png);
+}
+.animation:hover {
+  background-image: url(../img/application/animationHover.png);
+}
+
+.gameCard {
+  background-image: url(../img/application/gameCard.png);
+}
+.gameCard:hover {
+  background-image: url(../img/application/gameCardStart.png);
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -342,6 +373,9 @@ a {
     padding: 20px 10px;
     height: 10px;
   }
+  .portfolio__app {
+    background-position: center;
+  }
   .container {
     max-width: 400px;
   }
@@ -365,12 +399,29 @@ a {
     display: flex;
   }
   .navigation__mobile {
-    width: 18px;
-    height: 18px;
-    display: block;
+    width: 25px;
+    height: 2px;
+    display: inline-block;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    top: 15px;
+    right: 15px;
+    background-color: black;
+  }
+  .navigation__mobile::after {
+    content: "";
+    width: 25px;
+    height: 2px;
+    display: block;
+    margin-top: 2px;
+    background-color: black;
+  }
+  .navigation__mobile::before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    display: block;
+    margin-top: 4px;
+    background-color: black;
   }
   .contact {
     margin-bottom: -1rem;

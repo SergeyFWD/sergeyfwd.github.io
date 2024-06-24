@@ -111,6 +111,9 @@ a {
       font-weight: 700;
     }
   }
+  &__list {
+    font-weight: 700;
+  }
 
   &__social {
     gap: 1.3rem;
@@ -189,6 +192,34 @@ a {
   background-image: url(../img/application/delivery.jpg);
   &:hover {
     background-image: url(../img/application/deliveryRest.jpg);
+  }
+}
+
+.delivery {
+  background-image: url(../img/application/delivery.jpg);
+  &:hover {
+    background-image: url(../img/application/deliveryRest.jpg);
+  }
+}
+
+.interior {
+  background-image: url(../img/application/interiorMain.jpg);
+  &:hover {
+    background-image: url(../img/application/interior.jpg);
+  }
+}
+
+.animation {
+  background-image: url(../img/application/animation.png);
+  &:hover {
+    background-image: url(../img/application/animationHover.png);
+  }
+}
+
+.gameCard {
+  background-image: url(../img/application/gameCard.png);
+  &:hover {
+    background-image: url(../img/application/gameCardStart.png);
   }
 }
 

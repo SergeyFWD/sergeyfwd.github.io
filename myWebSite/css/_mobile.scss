@@ -63,6 +63,10 @@
       padding: 20px 10px;
       height: 10px;
     }
+
+    &__app {
+      background-position: center;
+    }
   }
 
   .container {
@@ -88,12 +92,29 @@
     }
 
     &__mobile {
-      width: 18px;
-      height: 18px;
-      display: block;
+      width: 25px;
+      height: 2px;
+      display: inline-block;
       position: absolute;
-      right: 10px;
-      top: 10px;
+      top: 15px;
+      right: 15px;
+      background-color: black;
+      &::after {
+        content: "";
+        width: 25px;
+        height: 2px;
+        display: block;
+        margin-top: 2px;
+        background-color: black;
+      }
+      &::before {
+        content: "";
+        width: 25px;
+        height: 2px;
+        display: block;
+        margin-top: 4px;
+        background-color: black;
+      }
     }
   }
 
