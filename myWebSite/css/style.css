@@ -113,8 +113,8 @@ a {
   display: none;
 }
 
-.absolute {
-  position: absolute;
+.margin {
+  margin-bottom: 10vh;
 }
 
 .navigation {
@@ -439,5 +439,8 @@ a {
   }
   .about__wrapper {
     flex-direction: column;
+  }
+  .margin {
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=style.css.map */
